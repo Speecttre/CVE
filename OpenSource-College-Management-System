@@ -9,5 +9,5 @@
 
 ## Vulnerability Description
 
-`login.php` is vulnerable to the tested SQLi payload= ' OR IF(SUBSTRING(Password, 1, 1)='a', SLEEP(5), 0) -- -.
-With this payload the system arrives with a 5 second delay
+- `login.php` is vulnerable to the tested SQLi payload= ' OR IF(SUBSTRING(Password, 1, 1)='a', SLEEP(5), 0) -- -.
+- With this payload the system arrives with a 5 second delay
