@@ -1,4 +1,4 @@
-# SQLi Vulnerability From College Management System 
+## SQLi Vulnerability From College Management System 
 
 > A vulnerability has been found in the College Management System 1.0. This vulnerability affects the “username” field of the login.php file. SQLi is triggered with input. The product does not check the user's input with any security measures, so the attacker can easily bypass the query.
 
@@ -7,7 +7,7 @@
 
 ** Related Code File: login.php
 
-# Vulnerability Description
+## Vulnerability Description
 
 `login.php` is vulnerable to the tested SQLi payload= ' OR IF(SUBSTRING(Password, 1, 1)='a', SLEEP(5), 0) -- -.
 With this payload the system arrives with a 5 second delay
